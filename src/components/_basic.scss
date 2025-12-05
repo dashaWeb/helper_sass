@@ -1,11 +1,13 @@
+@use "/src/components/mixin" as mixin;
+@use "/src/components/variables" as styles;
 h1 {
-    @include font($font-bold, 35px, $dark-3-pr4-color);
+    @include mixin.font(styles.$font-bold, 35px, styles.$dark-3-pr4-color);
 }
 
 h2 {
-    @include font($font-medium, 33px, $dark-2-pr4-color);
+    @include mixin.font(styles.$font-medium, 33px, styles.$dark-2-pr4-color);
 }
 
 h3 {
-    @include font($font-medium, 27px, $dark-3-pr4-color);
+    @include mixin.font(styles.$font-medium, 27px, styles.$dark-3-pr4-color);
 }

@@ -1,4 +1,4 @@
-
+@use "/src/components/variables" as styles;
 .container{
     width: 600px;
     margin:  0 auto;
@@ -17,76 +17,76 @@
                 background-color: red;
             }
             .pr-1{
-                background-color: $pr-main-color;
+                background-color: styles.$pr-main-color;
             }
             .pr-2{
-                background-color: $pr-color-2;
+                background-color: styles.$pr-color-2;
             }
             .pr-3{
-                background-color: $pr-color-3;
+                background-color: styles.$pr-color-3;
             }
             .pr-4{
-                background-color: $pr-color-4;
+                background-color: styles.$pr-color-4;
             }
 
             .l1-1{
-                background-color: $light-1-main-color;
+                background-color: styles.$light-1-main-color;
             }
             .l2-1{
-                background-color: $light-2-main-color;
+                background-color: styles.$light-2-main-color;
             }
             .l3-1{
-                background-color: $light-3-main-color;
+                background-color: styles.$light-3-main-color;
             }
 
             .l1-2{
-                background-color: $light-1-pr2-color;
+                background-color: styles.$light-1-pr2-color;
             }
             .l2-2{
-                background-color: $light-2-pr2-color;
+                background-color: styles.$light-2-pr2-color;
             }
             .l3-2{
-                background-color: $light-3-pr2-color;
+                background-color: styles.$light-3-pr2-color;
             }
 
             .l1-4{
-                background-color: $light-1-pr4-color;
+                background-color: styles.$light-1-pr4-color;
             }
             .l2-4{
-                background-color: $light-2-pr4-color;
+                background-color: styles.$light-2-pr4-color;
             }
             .l3-4{
-                background-color: $light-3-pr4-color;
+                background-color: styles.$light-3-pr4-color;
             }
 
             .d1-1{
-                background-color: $dark-1-main-color;
+                background-color: styles.$dark-1-main-color;
             }
             .d2-1{
-                background-color: $dark-2-main-color;
+                background-color: styles.$dark-2-main-color;
             }
             .d3-1{
-                background-color: $dark-3-main-color;
+                background-color: styles.$dark-3-main-color;
             }
 
             .d1-2{
-                background-color: $dark-1-pr2-color;
+                background-color: styles.$dark-1-pr2-color;
             }
             .d2-2{
-                background-color: $dark-2-pr2-color;
+                background-color: styles.$dark-2-pr2-color;
             }
             .d3-2{
-                background-color: $dark-3-pr2-color;
+                background-color: styles.$dark-3-pr2-color;
             }
 
             .d1-4{
-                background-color: $dark-1-pr4-color;
+                background-color: styles.$dark-1-pr4-color;
             }
             .d2-4{
-                background-color: $dark-2-pr4-color;
+                background-color: styles.$dark-2-pr4-color;
             }
             .d3-4{
-                background-color: $dark-3-pr4-color;
+                background-color: styles.$dark-3-pr4-color;
             }
         }
     }
