@@ -6,7 +6,7 @@ $pr-main-color: #03a9f4;
 $pr-color-2: #f75e2e;
 $pr-color-3: #ecfa4d;
 $pr-color-4: #656a70;
-
+$light:#fff;
 // lighten 
 $light-1-main-color: color.mix(#fff, $pr-main-color, 40%);
 $light-2-main-color: color.mix(#fff, $pr-main-color, 75%);
